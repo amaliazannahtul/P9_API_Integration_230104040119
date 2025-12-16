@@ -1,0 +1,30 @@
+{
+  "name": "p9_api_integration_230104040119",
+  "version": "1.0.0",
+  "description": "API Integration - Weather & Countries",
+  "main": "src/docs/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/docs/server.js",
+    "dev": "nodemon src/docs/server.js"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "weather",
+    "countries"
+  ],
+  "author": "230104040119",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "node-cache": "^5.1.2",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
